@@ -1,0 +1,207 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: azure;
+
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color:rgb(143, 92, 143);
+}
+nav ul{
+    list-style: none;
+    display: flex;
+}
+li{
+    margin-right: 20px;
+
+}
+nav a{
+    text-decoration: none;
+    color:azure;
+    font-weight: bold;
+}
+nav a:hover{
+    color:aquamarine;
+}
+h1{
+    color: azure;
+}
+
+.Welcome{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url("intro.jpg");
+    height: 800px;
+    background-size: cover;
+    text-align: center;
+    
+}
+.Welcome h2{
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: azure;
+}
+a{
+    text-align: none;
+}
+.button {
+    
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: rgb(143, 92, 143);
+    background-image: linear-gradient(to top left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) 30%, rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6), inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+}
+.button:hover {
+    background-color: rgb(226, 207, 226);;
+}
+
+.button:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, 0.6), inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+
+.guide{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(108, 85, 52);
+    height: 160px;
+    text-align: center;
+    
+}
+.guide h1{
+    font-size: 30px;
+    margin-bottom: 5px;
+    color: rgb(245, 202, 107);
+    list-style: 1.5;
+}
+.buttong {
+    margin: 10px;
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: rgb(144, 96, 90);
+    background-image: linear-gradient(to top left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) 30%, rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6), inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+}
+.buttong:hover {
+    background-color: rgb(245, 202, 107);;
+}
+
+.buttong:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, 0.6), inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+.about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(144, 96, 90);
+    height: 200px;
+    background-size: cover;
+    text-align: center;
+    
+}
+.about h2{
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: rgb(245, 202, 107);
+    background:none;
+}
+.about p{
+    color: azure;
+    background: none;
+}
+.gallery h2 {
+    font-size: 30px;
+    margin-bottom: 20px ;
+    color:rgb(144, 96, 90);
+    text-align: center;
+    padding: 50px 20px;
+    background-color: rgb(245, 202, 107);
+}
+.images {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 20px;
+
+}
+.images img{
+    width: 100%;
+    height: 100%;
+    border-radius: 0px;
+}
+
+
+
+hr{
+    border: aliceblue;
+    height: 0;
+}
+.com{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(245, 202, 107);
+    height: 160px;
+    text-align: center;
+}
+.com a{
+    text-align: none;
+}
+.buttonn {
+    margin: 4px;
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: rgb(144, 96, 90);
+    background-image: linear-gradient(to top left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) 30%, rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(244, 252, 135, 0.6), inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+}
+.buttonn:hover {
+    background-color: rosybrown;;
+}
+
+.buttonn:active {
+    box-shadow: inset -2px -2px 3px rgba(244, 252, 135, 0.6), inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+.qlv{
+    background-color: rgb(245, 202, 107);
+    margin: 0;
+    text-align: center;
+    font-size: 30px;
+    color: rgb(144, 96, 90);
+
+}
+footer{
+    padding: 20px 20px;
+    text-align: center;
+    background-color: rgb(143, 92, 143);
+    font-size: 14px;
+}
